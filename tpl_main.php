@@ -58,7 +58,7 @@ Template Name: ГЛАВНАЯ страница
 		<div class="wrapper">
 			<div class="row">
 				<div class="col-md-12">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi repudiandae nisi maxime incidunt corporis consequatur, eius facere culpa distinctio ex, animi impedit ut expedita numquam ipsum consectetur quisquam, voluptas adipisci, natus. Debitis, nobis optio quasi pariatur, id assumenda voluptates. Nobis illum libero labore consequatur accusamus explicabo impedit distinctio ea perspiciatis.
+					<?php the_content(); ?>
 				</div>
 			</div>
 		</div>
