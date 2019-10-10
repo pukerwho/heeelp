@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #297ed1;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 60px;
+      }
+    </style>
+  </defs>
+  <title>logo_1</title>
+  <g id="Шар_2" data-name="Шар 2">
+    <g id="Шар_1-2" data-name="Шар 1">
+      <circle class="cls-1" cx="240" cy="240" r="240"/>
+      <polygon class="cls-2" points="324.994 92.805 275.006 387.195 275.006 387.195 324.994 92.805 324.994 92.805"/>
+      <polygon class="cls-2" points="204.994 92.805 155.006 387.195 155.006 387.195 204.994 92.805 204.994 92.805"/>
+      <polygon class="cls-2" points="369 260 111 260 111 260 369 260 369 260"/>
+    </g>
+  </g>
+</svg>
