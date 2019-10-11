@@ -12,6 +12,16 @@
   <link rel="alternate" hreflang="en" href="<?php echo home_url(); ?>/en">
   <link rel="alternate" hreflang="ru" href="<?php echo home_url(); ?>/ru">
   <link rel="alternate" hreflang="ua" href="<?php echo home_url(); ?>/ua">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149886758-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-149886758-1');
+  </script>
+
   <?php
   // ENQUEUE your css and js in inc/enqueues.php
 
