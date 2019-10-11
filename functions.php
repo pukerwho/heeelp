@@ -31,6 +31,8 @@ require_once get_template_directory() . '/inc/custom-fields/pages-meta.php';
 require_once get_template_directory() . '/inc/custom-fields/tax-meta.php';
 require_once get_template_directory() . '/inc/TGM/example.php';
 
+remove_action('wp_head', 'print_emoji_detection_script', 7);
+remove_action('wp_print_styles', 'print_emoji_styles');
 
 register_nav_menus( array(
     'head_menu' => 'Меню в шапке',
