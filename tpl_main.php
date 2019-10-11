@@ -10,13 +10,13 @@ Template Name: ГЛАВНАЯ страница
 	<div class="welcome_content container">
 		<div class="row mb-3">
 			<div class="col-md-12">
-				<h1 class="text-center font-weight-bold text-white text-capitalize p-relative">Поиск мастеров в Киеве</h1>
+				<h1 class="text-center font-weight-bold text-white text-capitalize p-relative">Домашний мастер в Киеве</h1>
 			</div>
 		</div>
 		<div class="row justify-content-center">
 			<div class="col-md-10">
 				<div class="lead text-center text-white box_grey p-relative">
-					Данный каталог собран с целью помочь жителями в Киеве и Киевской области в поисках подходящего мастера. Все специалисты, которые представлены на сайте прошли нашу проверку, но мы будем рады за вашу обратную связь - это поможет улучшить данный каталог. 
+					Услуги, фото, отзывы, телефоны.<br>Данный каталог собран с целью помочь жителями в Киеве и Киевской области в поисках подходящего мастера. Все специалисты, которые представлены на сайте прошли нашу проверку, но мы будем рады за вашу обратную связь - это поможет улучшить данный каталог. 
 				</div>
 			</div>
 		</div>
