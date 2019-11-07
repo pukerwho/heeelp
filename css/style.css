@@ -9172,6 +9172,11 @@ h2 {
   -webkit-box-shadow: 0 5px 0 rgba(0, 0, 0, 0.05);
   box-shadow: 0 5px 0 rgba(0, 0, 0, 0.05);
   padding: 2rem; }
+  .wrapper ul {
+    margin-left: 1rem;
+    margin-bottom: 1rem; }
+  .wrapper li {
+    list-style-type: disc; }
 
 .welcome {
   min-height: 500px;
@@ -9221,9 +9226,8 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black));
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, black 100%);
     background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, black 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black));
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, black 100%); }
 
 .box_gray {

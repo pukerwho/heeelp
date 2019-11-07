@@ -58,7 +58,12 @@ Template Name: ГЛАВНАЯ страница
 		<div class="wrapper">
 			<div class="row">
 				<div class="col-md-12">
-					<?php the_content(); ?>
+					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+						<?php the_content(); ?>
+					<?php endwhile; else: ?>
+						<p><?php _e('Ничего не найдено'); ?></p>
+					<?php endif; ?>
+
 				</div>
 			</div>
 		</div>
