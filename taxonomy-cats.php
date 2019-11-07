@@ -33,7 +33,7 @@
 				<div class="row">
 					<?php foreach($term_children as $child): ?>
 						<?php $child_term = get_term_by( 'id', $child, 'cats' ); ?>
-						<div class="col-md-4">
+						<div class="col-md-4 mb-3">
 							<a href="<?php echo get_term_link($child_term) ?>">
 								<div class="box" style="background: url('<?php echo carbon_get_term_meta($child_term->term_id, 'crb_cats_img' ); ?>'); background-size: cover;">
 									<div class="box_bg"></div>
@@ -83,7 +83,9 @@
 		<div class="wrapper">
 			<div class="row">
 				<div class="col-md-12">
-					<?php echo carbon_get_term_meta(get_queried_object_id(), 'crb_cats_content') ?>
+					<div class="text">
+						<?php echo carbon_get_term_meta(get_queried_object_id(), 'crb_cats_content') ?>
+					</div>
 				</div>
 			</div>
 		</div>

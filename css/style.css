@@ -9167,11 +9167,14 @@ h2 {
 .pointer {
   cursor: pointer; }
 
-.content ul {
+.text ul {
   margin-left: 1rem;
   margin-bottom: 1rem; }
-.content li {
+.text li {
   list-style-type: disc; }
+
+.tax-cats .wrapper {
+  padding-bottom: 0; }
 
 .wrapper {
   background-color: #ffffff;

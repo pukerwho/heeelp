@@ -59,7 +59,9 @@ Template Name: ГЛАВНАЯ страница
 			<div class="row">
 				<div class="col-md-12">
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-						<?php the_content(); ?>
+						<div class="text">
+							<?php the_content(); ?>	
+						</div>
 					<?php endwhile; else: ?>
 						<p><?php _e('Ничего не найдено'); ?></p>
 					<?php endif; ?>
